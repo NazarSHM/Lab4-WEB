@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Веб-сторінка</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+<header>
+  <h1>Інформація про студента</h1>
+  <p>Група: ТР-25<span id="group"></span></p>
+  <p>ПІБ: Шмагайло Назар Романович<span id="fullName"></span></p>
+  <p>Варіант студента: 19<span id="studentVariant"></span></p>
+</header>
+
+<h2>Таблиця завдань</h2>
+<table>
+  <tr>
+    <th>Опис завдання</th>
+    <th>Запустити скрипт</th>
+  </tr>
+  <tr>
+    <td>1. Створити об’єкт «Користувач» з властивостями «ІД», «логін», «пароль».</td>
+        <td><button onclick="createUser()">Виконати</button></td>
+    </tr>
+    <tr>
+        <td>2. Створити об’єкт «Адмін», що містить властивістю «тип» зі значенням «адмін» і методи: додати, видалити і змінити (написати реалізацію методів).</td>
+        <td><button onclick="createAdmin()">Виконати</button></td>
+    </tr>
+    <tr>
+        <td>3. Реалізувати об’єднання властивостей і методів об’єктів «Користувач» і «Адмін».</td>
+        <td><button onclick="mergeObjects()">Виконати</button></td>
+    </tr>
+    <tr>
+        <td>4. Додати в прототип об’єкту «Користувач» метод «Показати дані»</td>
+        <td><button onclick="addShowDataMethod()">Виконати</button></td>
+    </tr>
+    <tr>
+        <td>5. Створити об’єкт «Користувач2», що наслідує властивості і методи об’єкту «Користувач» і має власну властивість «Адмін» зі значеннями true/false. Перевизначити в об’єкті «Користувач2» метод «Показати дані».</td>
+        <td><button onclick="createUser2()">Виконати</button></td>
+    </tr>
+  </tr>
+  <tr>
+    <td>6. Реалізувати класи «КористувачКлас» і «АдмінКлас» з такими же методами і властивостями.</td>
+    <td>
+      <button onclick="imitation()">Виконати</button>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

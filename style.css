@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    background-color: #111;
+    color: white;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #298dec;
+    color: #000;
+    font-size: 18px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+/* Основний стиль для кнопок */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #260376;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  /* Змінені стилі при наведенні на кнопку */
+  button:hover {
+    background-color: #0e0ee5;
+    color: #ffffff;
+  }
+  
+  /* Змінені стилі при натисканні на кнопку */
+  button:active {
+    background-color: #6939a3;
+    color: #ffffff;
+  }
